@@ -30,6 +30,12 @@ def move_files():
     # ファイルリストを大文字に変換
     files_to_move = [file_name.upper() for file_name in files_to_move]
 
+    # 確認ダイアログを表示
+    confirm = messagebox.askyesno("確認", "移動を開始してもよろしいですか？")
+    if not confirm:
+        messagebox.showinfo("キャンセル", "処理を中止しました。")
+        return
+
     for file_number in files_to_move:
         file_name = f'{file_number}.jpg'  # ファイル名のフォーマットに合わせて変更
         source_path = os.path.join(source_dir, file_name)

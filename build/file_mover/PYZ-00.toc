@@ -1,4 +1,4 @@
-('C:\\Users\\panda\\01_Projects\\Python\\imge_mover_app\\build\\file_mover\\PYZ-00.pyz',
+('C:\\Users\\panda\\01_Projects\\Python\\image_mover_app\\build\\file_mover\\PYZ-00.pyz',
  [('_compat_pickle',
    'C:\\Users\\panda\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_compat_pickle.py',
    'PYMODULE'),
